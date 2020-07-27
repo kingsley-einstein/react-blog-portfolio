@@ -1,0 +1,24 @@
+.dark-mode {
+ background-color: black;
+ .links {
+  a {
+   &.regular {
+    color: white;
+   }
+  }
+ }
+}
+
+.light-mode {
+ background-color: whitesmoke;
+ .links {
+  a {
+   &.regular {
+    color: black;
+    &:active {
+     color: lightblue;
+    }
+   }
+  }
+ }
+}

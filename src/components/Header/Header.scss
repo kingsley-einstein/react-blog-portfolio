@@ -1,0 +1,35 @@
+@mixin flex {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.header-flex {
+ @include flex();
+ flex-flow: row wrap;
+}
+
+.separator {
+ flex: 1 auto;
+}
+
+.theme-changer {
+ background: transparent;
+ border: none;
+}
+
+.links {
+ display: flex;
+ a {
+  &.regular {
+   font-family: "Oswald", sans-serif;
+   font-size: 15px;
+  }
+ }
+}
+
+@media screen and (orientation: portrait) {
+ .links {
+  display: none;
+ }
+}
