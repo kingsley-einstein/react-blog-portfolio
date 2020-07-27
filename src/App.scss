@@ -1,3 +1,21 @@
+@keyframes outerBorderLoadingAnimation {
+ 0% {
+  transform: rotate(0deg);
+ }
+ 100% {
+  transform: rotate(360deg);
+ }
+}
+
+@keyframes innerBorderLoadingAnimation {
+ 0% {
+  transform: rotate(0deg);
+ }
+ 100% {
+  transform: rotate(-360deg);
+ }
+}
+
 .dark-mode {
  background-color: black;
  .links {
@@ -20,5 +38,25 @@
     }
    }
   }
+ }
+}
+
+.loader {
+ background: transparent;
+ .outer-border {
+  border: 1px solid orange;
+  border-radius: 50%;
+  animation-name: outerBorderLoadingAnimation;
+  animation-timing-function: cubic-bezier(0.25, 0.5, 0.75, 1.0);
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+ }
+ .inner-border {
+  border: 1px solid magenta;
+  border-radius: 50%;
+  animation-name: innerBorderLoadingAnimation;
+  animation-timing-function: ease-in-out;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
  }
 }
