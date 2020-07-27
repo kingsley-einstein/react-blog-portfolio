@@ -1,3 +1,31 @@
+@import "fontawesome/scss/fontawesome.scss";
+@import "fontawesome/scss/solid.scss";
+@import "fontawesome/scss/brands.scss";
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+@font-face {
+ font-family: "Oswald";
+ src: url("fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "Montserrat";
+ src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "Open Sans";
+ src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
 @keyframes outerBorderLoadingAnimation {
  0% {
   transform: rotate(0deg);
@@ -12,12 +40,44 @@
   transform: rotate(0deg);
  }
  100% {
-  transform: rotate(-360deg);
+  transform: rotate(360deg);
  }
+}
+
+.container {
+ height: 100vh;
+ width: 100vw;
+ overflow: scroll;
+}
+
+.header-division {
+ height: 20vh;
+}
+
+.main-division {
+ height: 60vh;
+}
+
+.footer-division {
+ height: 20vh;
+}
+
+.inner-main-division {
+ margin-top: 10px;
+ margin-bottom: 10px;
 }
 
 .dark-mode {
  background-color: black;
+ i {
+  color: white;
+ }
+ .header {
+  border-bottom: 1px solid white;
+ }
+ .theme-changer {
+  color: white;
+ }
  .links {
   a {
    &.regular {
@@ -29,6 +89,9 @@
 
 .light-mode {
  background-color: whitesmoke;
+ .header {
+  border-bottom: 1px solid gainsboro;
+ }
  .links {
   a {
    &.regular {
@@ -44,19 +107,22 @@
 .loader {
  background: transparent;
  .outer-border {
-  border: 1px solid orange;
+  border: 2px solid gainsboro;
+  border-top-color: orange;
   border-radius: 50%;
-  animation-name: outerBorderLoadingAnimation;
-  animation-timing-function: cubic-bezier(0.25, 0.5, 0.75, 1.0);
-  animation-delay: 500ms;
-  animation-iteration-count: infinite;
+  animation: outerBorderLoadingAnimation 2s linear infinite;
+  width: 30px;
+  height: 30px;
+  text-align: center;
  }
  .inner-border {
-  border: 1px solid magenta;
+  border: 2px solid gainsboro;
+  border-top-color: magenta;
   border-radius: 50%;
-  animation-name: innerBorderLoadingAnimation;
-  animation-timing-function: ease-in-out;
-  animation-delay: 500ms;
-  animation-iteration-count: infinite;
+  animation: innerBorderLoadingAnimation 2s linear infinite;
+  width: 14px;
+  height: 14px;
+  margin: 2px;
+  text-align: center;
  }
 }
