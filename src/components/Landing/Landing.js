@@ -16,7 +16,7 @@ const RenderedImage = ({ src, alt }) => (
 
 const RenderedCodeBlock = ({ value }) => (
  <pre className="prettyprint preserve-code">
-   <code>{value}</code>
+   <code>{JSON.parse(JSON.stringify(value, null, 2))}</code>
  </pre>
 );
 

@@ -47,33 +47,37 @@ body {
 .container {
  height: 100vh;
  width: 100vw;
- overflow: scroll;
  pre {
   border: none;
+  text-align: center;
   white-space: pre-line;
  }
  code {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
-  white-space: pre-wrap;
+  white-space: pre-line;
+  color: crimson;
  }
 }
 
 .header-division {
- height: 20vh;
+ height: 10vh;
+ z-index: 5;
 }
 
 .main-division {
- height: 60vh;
+ height: 80vh;
+ overflow: scroll;
 }
 
 .footer-division {
- height: 20vh;
+ height: 10vh;
+ z-index: -5;
 }
 
 .inner-main-division {
- margin-top: 10px;
- margin-bottom: 10px;
+ margin-top: 25px;
+ margin-bottom: 25px;
 }
 
 .code {
@@ -85,11 +89,17 @@ body {
  i {
   color: white;
  }
+ .main-division {
+  color: white;
+ }
  .preserve-code {
   background-color: gainsboro;
  }
  .header {
   border-bottom: 1px solid white;
+ }
+ .footer {
+  border-top: 1px solid white;
  }
  .theme-changer {
   color: white;
@@ -113,6 +123,11 @@ body {
  background-color: whitesmoke;
  .header {
   border-bottom: 1px solid gainsboro;
+  background-color: whitesmoke;
+ }
+ .footer {
+  border-top: 1px solid gainsboro;
+  background-color: whitesmoke;
  }
  .links {
   a {

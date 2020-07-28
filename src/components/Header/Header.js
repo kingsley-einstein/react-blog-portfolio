@@ -14,11 +14,11 @@ const Header = ({ onThemeChangerClick, darkMode }) => (
   <div className="separator"></div>
   <div className="links">
    <Anchor to="/" className="regular">Home</Anchor>
-   <Anchor to="/" className="regular">Portfolio</Anchor>
+   <Anchor to="/portfolio" className="regular">Portfolio</Anchor>
    <Anchor to="/" className="regular">Articles</Anchor>
    <Anchor to="/" className="special">
-    <i className="fab fa-github"></i>
-    <span>Repositories</span>
+    <i className="fa fa-envelope"></i>
+    <span>Contact Me</span>
    </Anchor>
   </div>
   <button className="hamburger">

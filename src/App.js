@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
-import { Header, Landing, Footer } from "./components";
+import { Header, Landing, Footer, Portfolio } from "./components";
 import "./App.scss";
 import { ChangeTheme } from "./actions/themeActions";
 
@@ -21,6 +21,7 @@ const App = ({ dispatch, theme }) => {
      <div className="inner-main-division">
       <Switch>
       <Route path="/" exact component={Landing} />
+      <Route path="/portfolio" exact component={Portfolio} />
      </Switch>
      </div>
     </div>
