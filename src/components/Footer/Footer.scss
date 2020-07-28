@@ -10,7 +10,19 @@
  @include flex()
 }
 
+.footer {
+ position: fixed;
+ bottom: 0;
+ padding: 8px;
+ right: 10px;
+ left: 10px;
+}
+
 .legible {
  font-size: 30px;
  padding: 8px;
+}
+
+.separator {
+ flex: 1 auto;
 }

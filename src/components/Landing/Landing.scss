@@ -1,0 +1,21 @@
+@mixin flexMeta {
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+ font-family: "Oswald", sans-serif;
+ text-align: center;
+ font-size: 25px;
+ overflow: scroll;
+}
+
+.landing-flex {
+ display: flex;
+ @include flexMeta();
+}
+
+.round-avatar {
+ border: 2px solid seagreen;
+ border-radius: 50%;
+ width: 200px;
+ height: 200px;
+}

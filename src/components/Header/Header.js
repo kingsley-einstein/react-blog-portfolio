@@ -16,7 +16,10 @@ const Header = ({ onThemeChangerClick, darkMode }) => (
    <Anchor to="/" className="regular">Home</Anchor>
    <Anchor to="/" className="regular">Portfolio</Anchor>
    <Anchor to="/" className="regular">Articles</Anchor>
-   <Anchor to="/" className="special">Repositories</Anchor>
+   <Anchor to="/" className="special">
+    <i className="fab fa-github"></i>
+    <span>Repositories</span>
+   </Anchor>
   </div>
   <button className="hamburger">
    <div></div>

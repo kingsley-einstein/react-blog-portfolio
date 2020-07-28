@@ -6,6 +6,9 @@
 
 .header {
  padding: 8px;
+ width: 100vw;
+ position: fixed;
+ top: 0;
 }
 
 .header-flex {
@@ -23,12 +26,13 @@
  outline: none;
  cursor: pointer;
  .tip {
-  display: none;
+  opacity: 0;
   font-family: "Open Sans", sans-serif;
+  display: inline-block;
  }
  &:hover {
   .tip {
-   display: inline-block;
+   opacity: 1;
    margin: 2px;
   }
  }
@@ -38,13 +42,16 @@
  background: transparent;
  border: none;
  outline: none;
- padding: 3px;
+ padding: 8px;
+ margin: 2px;
+ text-align: center;
  cursor: pointer;
  > div {
   background-color: lightblue;
   height: 4px;
   width: 30px;
   margin: 2px;
+  text-align: center;
  }
 }
 
@@ -54,6 +61,7 @@
   text-decoration: none;
   padding: 12px 14px;
   text-align: center;
+  margin: 2px;
   &.regular {
    font-family: "Montserrat", sans-serif;
    font-size: 15px;
@@ -69,6 +77,9 @@
    border: none;
    background: slateblue;
    border-radius: 50px;
+   i {
+    padding: 4px;
+   }
   }
  }
 }
