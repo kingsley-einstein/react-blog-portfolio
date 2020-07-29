@@ -50,13 +50,14 @@ body {
  pre {
   border: none;
   text-align: center;
-  white-space: pre-line;
+  overflow: scroll;
  }
  code {
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
-  white-space: pre-line;
-  color: crimson;
+  overflow: scroll;
+  text-align: center;
+  width: 50%;
  }
 }
 

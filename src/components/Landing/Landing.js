@@ -3,21 +3,23 @@ import MarkDown from "react-markdown";
 import { connect } from "react-redux";
 import "./Landing.scss";
 import Loader from "../Loading/Loading";
+import CodeRenderer from "../CodeRenderer/CodeRenderer";
 import SelfWriteText from "../SelfWriteText/SelfWriteText";
 import MetaDataEffect from "../../effects/metadataEffects";
 
 const RenderedImage = ({ src, alt }) => (
  <img 
- className="round-avatar" 
- src={src} 
- alt={alt} 
+  className="round-avatar" 
+  src={src} 
+  alt={alt} 
  />
 );
 
-const RenderedCodeBlock = ({ value }) => (
- <pre className="prettyprint preserve-code">
-   <code>{JSON.parse(JSON.stringify(value, null, 2))}</code>
- </pre>
+const RenderedCodeBlock = ({ value, language }) => (
+ <CodeRenderer 
+  language={language} 
+  value={value} 
+ />
 );
 
 const renderers = {

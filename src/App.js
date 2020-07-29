@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 import { Header, Landing, Footer, Portfolio } from "./components";
 import "./App.scss";
+import "./prism.css";
 import { ChangeTheme } from "./actions/themeActions";
 
 const App = ({ dispatch, theme }) => {

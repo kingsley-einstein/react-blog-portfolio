@@ -3,7 +3,6 @@
 
 ##### Full-Stack Software Engineer | Java Citizen | Lover Of JavaScript | Microservices Advocate | GraphQL Tech-naut
 
-```js
- const log = () => console.log("Welcome to my blog & portfolio");
- log();
+```ts
+console.log("Welcome to my blog/portfolio");
 ```

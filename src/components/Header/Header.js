@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as Anchor } from "react-router-dom";
+import { NavLink as Anchor } from "react-router-dom";
 import { connect } from "react-redux";
 import "./Header.scss";
 
@@ -13,10 +13,10 @@ const Header = ({ onThemeChangerClick, darkMode }) => (
   </button>
   <div className="separator"></div>
   <div className="links">
-   <Anchor to="/" className="regular">Home</Anchor>
-   <Anchor to="/portfolio" className="regular">Portfolio</Anchor>
-   <Anchor to="/" className="regular">Articles</Anchor>
-   <Anchor to="/" className="special">
+   <Anchor to="." activeClassName="active" className="regular">Home</Anchor>
+   <Anchor to="portfolio" activeClassName="active" className="regular">Portfolio</Anchor>
+   <Anchor to="." activeClassName="active" className="regular">Articles</Anchor>
+   <Anchor to="." className="special">
     <i className="fa fa-envelope"></i>
     <span>Contact Me</span>
    </Anchor>

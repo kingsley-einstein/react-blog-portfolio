@@ -1,0 +1,124 @@
+@keyframes rightMovingElement {
+ 0% {
+  transform: translateX(0px);
+ }
+ 100% {
+  transform: translateX(10px)
+ }
+}
+
+@keyframes leftMovingElement {
+ 0% {
+  transform: translateX(0px);
+ }
+ 100% {
+  transform: translateX(-10px);
+ }
+}
+
+@keyframes topMovingElement {
+ 0% {
+  transform: translateY(0px);
+ }
+ 100% {
+  transform: translateY(10px)
+ }
+}
+
+@keyframes bottomMovingElement {
+ 0% {
+  transform: translateY(0px);
+ }
+ 100% {
+  transform: translateY(-10px);
+ }
+}
+
+@mixin innerComponentStyle {
+ opacity: 0;
+ transition: all 1s ease-in-out;
+}
+
+.left-or-top-component {
+ @include innerComponentStyle();
+ margin-left: -6000px;
+ &.show {
+  margin-left: 15px;
+  opacity: 1;
+ }
+}
+
+.right-or-bottom-component {
+ @include innerComponentStyle();
+ margin-right: -6000px;
+ &.show {
+  margin-right: 15px;
+  opacity: 1;
+ }
+}
+
+.component-flex {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+ > div {
+  padding: 10px;
+ }
+}
+
+.spread {
+ flex: 1 auto;
+}
+
+.switching-right-div {
+ animation: rightMovingElement 1s ease-in infinite;
+ margin-right: -6000px;
+ opacity: 0;
+ transition: all 2s linear;
+ &.show {
+  margin-right: auto;
+  opacity: 1;
+ }
+}
+
+.switching-left-div {
+ animation: leftMovingElement 1s ease-in infinite;
+ margin-left: -6000px;
+ opacity: 0;
+ transition: all 2s linear;
+ &.show {
+  margin-right: auto;
+  opacity: 1;
+ }
+}
+
+@media screen and (orientation: portrait) {
+ .component-flex {
+  flex-flow: column wrap;
+ }
+
+ .left-or-top-component {
+  margin-top: -6000px;
+  &.show {
+   margin-top: 0;
+   margin-left: 2px;
+  }
+ }
+
+ .right-or-bottom-component {
+  margin-bottom: -6000px;
+  &.show {
+   margin-bottom: 0;
+  }
+ }
+
+ .switching-right-div {
+  display: none;
+ }
+
+ .switching-left-div {
+  display: none;
+ }
+}
