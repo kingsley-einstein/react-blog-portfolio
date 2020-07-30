@@ -69,17 +69,21 @@
 }
 
 .spread {
- flex: 1 auto;
+ flex: 0.8 auto;
 }
 
 .switching-right-div {
  animation: rightMovingElement 1s ease-in infinite;
  margin-right: -6000px;
  opacity: 0;
+ cursor: pointer;
  transition: all 2s linear;
  &.show {
   margin-right: auto;
   opacity: 1;
+ }
+ i {
+  font-size: 30px;
  }
 }
 
@@ -87,11 +91,17 @@
  animation: leftMovingElement 1s ease-in infinite;
  margin-left: -6000px;
  opacity: 0;
+ cursor: pointer;
  transition: all 2s linear;
  &.show {
   margin-right: auto;
   opacity: 1;
  }
+}
+
+.switching-bottom-div {
+ animation: bottomMovingElement 1s ease-in infinite;
+ display: none;
 }
 
 @media screen and (orientation: portrait) {
@@ -114,11 +124,27 @@
   }
  }
 
+ .spread {
+  display: none;
+ }
+
  .switching-right-div {
   display: none;
  }
 
  .switching-left-div {
   display: none;
+ }
+
+ .switching-bottom-div {
+  margin-bottom: -6000px;
+  opacity: 0;
+  display: block;
+  cursor: pointer;
+  transition: all 2s linear;
+  &.show {
+   margin-right: auto;
+   opacity: 1;
+  }
  }
 }

@@ -28,12 +28,15 @@ class Portfolio extends React.Component {
    portfolioCarousel.currentComponent === "right" ? "switching-left-div show" : "switching-left-div";
   const rightOrBottomSwitchingDiv =
    portfolioCarousel.currentComponent === "left" ? "switching-right-div show" : "switching-right-div";
+  const mobileRightOrBottomSwitchingDiv = 
+   portfolioCarousel.currentComponent === "left" ? "switching-bottom-div show" : "switching-bottom-div";
    return(
     <div className="component-flex">
-     <div className={leftOrTopSwitchingDiv} onClick={this.renderLeftComponent}>
+     {/* <div className={leftOrTopSwitchingDiv} onClick={this.renderLeftComponent}>
       <i className="fa fa-arrow-left"></i>
-     </div>
-      <div className="spread">
+     </div> */}
+      <div>
+       <div className="spread"></div>
       <div className={leftOrTopComponent}>
        <About source="Hello component" />
       </div>
@@ -41,8 +44,12 @@ class Portfolio extends React.Component {
         <TechAndRepos />
        </div>
       </div>
+      <div className="spread"></div>
      <div className={rightOrBottomSwitchingDiv} onClick={this.renderRightComponent}>
       <i className="fa fa-arrow-right"></i>
+     </div>
+     <div className={mobileRightOrBottomSwitchingDiv} onClick={this.renderRightComponent}>
+      <i className="fa fa-arrow-down"></i>
      </div>
     </div>
    );

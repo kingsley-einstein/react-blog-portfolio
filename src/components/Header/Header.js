@@ -13,10 +13,10 @@ const Header = ({ onThemeChangerClick, darkMode }) => (
   </button>
   <div className="separator"></div>
   <div className="links">
-   <Anchor to="." activeClassName="active" className="regular">Home</Anchor>
-   <Anchor to="portfolio" activeClassName="active" className="regular">Portfolio</Anchor>
-   <Anchor to="." activeClassName="active" className="regular">Articles</Anchor>
-   <Anchor to="." className="special">
+   <Anchor to="/" exact activeClassName="active" className="regular">Home</Anchor>
+   <Anchor to="/portfolio" exact activeClassName="active" className="regular">Portfolio</Anchor>
+   <Anchor to="/" exact activeClassName="active" className="regular">Articles</Anchor>
+   <Anchor to="/" exact className="special">
     <i className="fa fa-envelope"></i>
     <span>Contact Me</span>
    </Anchor>
