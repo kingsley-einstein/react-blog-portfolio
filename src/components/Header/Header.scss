@@ -5,10 +5,9 @@
 }
 
 .header {
- padding: 8px;
+ padding: 0;
  width: 100vw;
- position: fixed;
- top: 0;
+ background-color: #dcdcdc;
 }
 
 .header-flex {
@@ -79,7 +78,7 @@
    font-size: 15px;
    color: white;
    border: none;
-   background: slateblue;
+   background: seagreen;
    border-radius: 50px;
    i {
     padding: 4px;
@@ -96,6 +95,10 @@
 
 @media screen and (orientation: landscape) {
  .hamburger {
+  display: none;
+ }
+
+ .top-drawer {
   display: none;
  }
 }
