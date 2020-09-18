@@ -51,6 +51,7 @@ body {
   border: none;
   text-align: center;
   overflow: scroll;
+  font-size: 12px;
  }
  code {
   font-size: 12px;
@@ -62,6 +63,7 @@ body {
 }
 
 .header-division {
+ width: 100vw;
  height: 10vh;
  z-index: 5;
 }
@@ -154,3 +156,14 @@ body {
   text-align: center;
  }
 }
+
+// @media only screen and (orientation: portrait) {
+//  .container {
+//   pre {
+//    width: 40%;
+//   }
+//   code {
+//    width: 40%;
+//   }
+//  }
+// }
