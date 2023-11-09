@@ -1,0 +1,361 @@
+repo_name: kingsley-einstein/react-blog-portfolio
+report_id: 6a1061c8f4c89f8820b089329a7ff2f7
+repo_type: Public
+timestamp: '2023-11-09T20:00:20+00:00'
+requested_by: kingsley-einstein
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-09-12 01:37:42.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-27 01:12:48.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-26 23:39:45.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-27 01:12:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-26 23:39:45.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-09-12 01:37:42.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-26 23:39:45.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting in Prism
+    cve_id: CVE-2022-23647
+    cve_url: https://github.com/advisories/GHSA-3949-f494-cm99
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.27.0
+  - name: Cross-Site Scripting in Prism
+    cve_id: CVE-2020-15138
+    cve_url: https://github.com/advisories/GHSA-wvhm-4hhf-97x9
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.21.0
+  - name: Denial of service in prismjs
+    cve_id: CVE-2021-23341
+    cve_url: https://github.com/advisories/GHSA-h4hr-7fg3-h35w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.23.0
+  - name: Regular Expression Denial of Service (ReDoS) in Prism
+    cve_id: CVE-2021-32723
+    cve_url: https://github.com/advisories/GHSA-gj77-59wh-66hg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.24.0
+  - name: prismjs Regular Expression Denial of Service vulnerability
+    cve_id: CVE-2021-3801
+    cve_url: https://github.com/advisories/GHSA-hqhp-5p83-hx96
+    detected_date: Sep 21
+    severity: moderate
+    first_patched: 1.25.0
+- name: react-app-rewired
+  description: Tweak the create-react-app webpack config
+  package_url: https://www.npmjs.com/react-app-rewired
+  version: 2.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18317/default_f1e168ebe0f124084b9a0acbe78bc5cdba7b4575.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kingsley Victor
+  last_updated_on: 2020-07-29 19:49:23.000000000 Z
